@@ -1,13 +1,15 @@
 import Nav from '../components/nav'
+import VisualWave from '../components/visualwave'
+import BottomSection from '../components/bottomSection'
 
 export default function IndexPage() {
   return (
-    <div>
-      <Nav />
-      <div className="py-20">
-        <h1 className="text-5xl text-center text-gray-700 dark:text-gray-100">
-          Mood Wave
-        </h1>
+    <div className="h-screen bg-yellow-400">
+      <div className="py-0"> 
+        <VisualWave />
+      </div>
+      <div className="py-0"> 
+        <BottomSection />
       </div>
     </div>
   )
